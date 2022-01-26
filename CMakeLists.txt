@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 add_library(spdlog INTERFACE)
 target_include_directories(
         spdlog INTERFACE
-        ${CMAKE_SOURCE_DIR}/Libraries/spdlog
+        "${CMAKE_SOURCE_DIR}/Libraries"
 )
 
 find_package(Threads)
